@@ -1,0 +1,9 @@
+.centered {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 40%;
+}
+
+body {
+    background-image:url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/01/Restaurant-Desktop-Wallpapers-HD.jpg);
+ }
