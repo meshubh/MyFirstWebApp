@@ -37,7 +37,7 @@ def user_login(request):
                 # We'll send the user back to the homepage.
                 login(request, user)
                 response = HttpResponse("", status=302)
-                response['Location'] = "//aaokhaojaoapp.herokuapp.com/secondpage"
+                response['Location'] = "//aaokhaojaoapp.herokuapp.com/AaoKhaoJao/secondpage"
                 return response
             else:
                 # An inactive account was used - no logging in!

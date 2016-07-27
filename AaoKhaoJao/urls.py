@@ -14,4 +14,8 @@ urlpatterns = [
     url(r'^register/$', views.register, name='register'),
     url(r'^login/$', views.user_login),
     url(r'^logout/$', views.user_logout, name='logout'),
+    url(r'^secondpage/$', views.second_home),
+    url(r'^restaurants/$', views.manage_restaurants),
+    url(r'^allrestaurants/$', views.order_restaurants),
+    url(r'^confirmorder/$', views.confirm_order),
 ]

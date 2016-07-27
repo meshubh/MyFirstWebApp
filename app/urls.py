@@ -23,8 +23,4 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^AaoKhaoJao/', include('AaoKhaoJao.urls')),
     url(r'^', views.home),
-    url(r'^secondpage/$', views.second_home),
-    url(r'^restaurants/$', views.manage_restaurants),
-    url(r'^allrestaurants/$', views.order_restaurants),
-    url(r'^confirmorder/$', views.confirm_order),
 ]
