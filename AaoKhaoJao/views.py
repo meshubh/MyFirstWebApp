@@ -37,7 +37,7 @@ def user_login(request):
                 # We'll send the user back to the homepage.
                 login(request, user)
                 response = HttpResponse("", status=302)
-                response['Location'] = "http://localhost:63342/app/templates/Secondpage.html"
+                response['Location'] = "https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/Secondpage.html"
                 return response
             else:
                 # An inactive account was used - no logging in!
@@ -251,4 +251,20 @@ def user_logout(request):
 
 def home(request):
     template = get_template("Firstpage.html")
+    return HttpResponse(template.render())
+
+def second_home(request):
+    template = get_template("Secondpage.html")
+    return HttpResponse(template.render())
+
+def manage_restaurants(request):
+    template = get_template("AaoKhaoJao.html")
+    return HttpResponse(template.render())
+
+def order_restaurants(request):
+    template = get_template("customeraaokhaojao.html")
+    return HttpResponse(template.render())
+
+def confirm_order(request):
+    template = get_template("orderconfirmation.html")
     return HttpResponse(template.render())
