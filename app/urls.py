@@ -22,5 +22,5 @@ from AaoKhaoJao import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^AaoKhaoJao/', include('AaoKhaoJao.urls')),
-    url(r'^/$', views.home),
+    url(r'^$', views.home),
 ]
