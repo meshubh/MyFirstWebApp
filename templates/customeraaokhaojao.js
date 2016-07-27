@@ -17,12 +17,12 @@ var Menu = Backbone.Model.extend({
 
 var RestaurantCollection = Backbone.Collection.extend({
     model: Restaurants,
-    url: 'http://127.0.0.1:8000/AaoKhaoJao/api/restaurantlist/'
+    url: 'https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/api/restaurantlist/'
 });
 
 var MenuCollection = Backbone.Collection.extend({
     model: Menu,
-    url: 'http://127.0.0.1:8000/AaoKhaoJao/api/menu/'
+    url: 'https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/api/menu/'
 
 });
  
