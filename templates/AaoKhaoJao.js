@@ -3,7 +3,7 @@ var Restaurants = Backbone.Model.extend({
         name: 'Empty',
         location: 'Kachiguda',
         id: null,
-        owner_id: null
+        owner: null
     }
 });
 

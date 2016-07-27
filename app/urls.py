@@ -17,10 +17,9 @@ from django.conf.urls import url,include
 from django.contrib import admin
 from django.conf.urls import url
 from django.contrib import admin
-
+from AaoKhaoJao import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^AaoKhaoJao/', include('AaoKhaoJao.urls')),
-    # url(r'^', include('django.contrib.auth.urls')),
 ]

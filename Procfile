@@ -1,2 +1,1 @@
-$ web: python manage.py runserver 0.0.0.0:$PORT --noreload
-worker: python worker.py
+web: gunicorn aaokhaojaoapp.wsgi --log-file -
