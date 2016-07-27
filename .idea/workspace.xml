@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393dd920-8e06-4220-8daa-bccde9e80780" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/urls.py" afterPath="$PROJECT_DIR$/AaoKhaoJao/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/views.py" afterPath="$PROJECT_DIR$/AaoKhaoJao/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/urls.py" afterPath="$PROJECT_DIR$/app/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Secondpage.html" afterPath="$PROJECT_DIR$/templates/Secondpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/customeraaokhaojao.html" afterPath="$PROJECT_DIR$/templates/customeraaokhaojao.html" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
               <folding>
                 <element signature="e#641#681#0" expanded="true" />
               </folding>
@@ -45,8 +49,8 @@
       <file leaf-file-name="Secondpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Secondpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+            <state relative-caret-position="238">
+              <caret line="15" column="107" selection-start-line="15" selection-start-column="107" selection-end-line="15" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -55,8 +59,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AaoKhaoJao/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -76,28 +80,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AaoKhaoJao/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
+            <state relative-caret-position="169">
+              <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
               <folding>
-                <element signature="e#2665#3494#0" expanded="false" />
-                <element signature="e#3581#4134#0" expanded="false" />
-                <element signature="e#4213#4955#0" expanded="false" />
-                <element signature="e#5017#5573#0" expanded="false" />
-                <element signature="e#5646#6368#0" expanded="false" />
-                <element signature="e#6429#6969#0" expanded="false" />
+                <element signature="e#2654#3483#0" expanded="false" />
+                <element signature="e#3570#4123#0" expanded="false" />
+                <element signature="e#4202#4944#0" expanded="false" />
+                <element signature="e#5006#5562#0" expanded="false" />
+                <element signature="e#5635#6357#0" expanded="false" />
+                <element signature="e#6418#6958#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customeraaokhaojao.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="customeraaokhaojao.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="67">
+              <caret line="63" column="93" selection-start-line="63" selection-start-column="93" selection-end-line="63" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -158,12 +162,12 @@
         <option value="$PROJECT_DIR$/templates/AaoKhaoJao.js" />
         <option value="$PROJECT_DIR$/templates/customeraaokhaojao.js" />
         <option value="$PROJECT_DIR$/templates/AaoKhaoJao.html" />
-        <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/app/wsgi.py" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/urls.py" />
+        <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/AaoKhaoJao/views.py" />
         <option value="$PROJECT_DIR$/templates/Secondpage.html" />
         <option value="$PROJECT_DIR$/templates/customeraaokhaojao.html" />
-        <option value="$PROJECT_DIR$/AaoKhaoJao/views.py" />
       </list>
     </option>
   </component>
@@ -938,28 +942,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
+    <entry file="file://$PROJECT_DIR$/app/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="e#641#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Secondpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -974,36 +960,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AaoKhaoJao/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="e#641#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AaoKhaoJao/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
+        <state relative-caret-position="169">
+          <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
           <folding>
-            <element signature="e#2665#3494#0" expanded="false" />
-            <element signature="e#3581#4134#0" expanded="false" />
-            <element signature="e#4213#4955#0" expanded="false" />
-            <element signature="e#5017#5573#0" expanded="false" />
-            <element signature="e#5646#6368#0" expanded="false" />
-            <element signature="e#6429#6969#0" expanded="false" />
+            <element signature="e#2654#3483#0" expanded="false" />
+            <element signature="e#3570#4123#0" expanded="false" />
+            <element signature="e#4202#4944#0" expanded="false" />
+            <element signature="e#5006#5562#0" expanded="false" />
+            <element signature="e#5635#6357#0" expanded="false" />
+            <element signature="e#6418#6958#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Secondpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="107" selection-start-line="15" selection-start-column="107" selection-end-line="15" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="63" column="93" selection-start-line="63" selection-start-column="93" selection-end-line="63" selection-end-column="93" />
+          <folding />
         </state>
       </provider>
     </entry>
