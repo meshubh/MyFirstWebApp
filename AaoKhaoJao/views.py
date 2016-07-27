@@ -248,3 +248,7 @@ def user_logout(request):
 
     # Take the user back to the homepage.
     return HttpResponseRedirect('/AaoKhaoJao/login')
+
+def home(request):
+    template = get_template("Firstpage.html")
+    return HttpResponse(template.render())
