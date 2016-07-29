@@ -12,7 +12,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponseRedirect
 from django.template import RequestContext
 from django.contrib.auth import authenticate,login,logout
-from rest_framework.authentication import SessionAuthentication
+from rest_framework.authentication import SessionAuthentication,BasicAuthentication
 
 
 def user_login(request):
@@ -275,3 +275,10 @@ def order_restaurants(request):
 def confirm_order(request):
     template = get_template("orderconfirmation.html")
     return HttpResponse(template.render())
+
+class CsrfExemptSessionAuthentication(SessionAuthentication):
+
+    def enforce_csrf(self, request):
+        return  # To not perform the csrf check previously happening
+
+authentication_classes = (CsrfExemptSessionAuthentication, BasicAuthentication)
