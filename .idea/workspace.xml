@@ -125,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/templates/AaoKhaoJao.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="370" column="17" selection-start-line="370" selection-start-column="17" selection-end-line="370" selection-end-column="17" />
+              <caret line="370" column="34" selection-start-line="370" selection-start-column="34" selection-end-line="370" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -1031,7 +1031,7 @@
     <entry file="file://$PROJECT_DIR$/templates/AaoKhaoJao.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="370" column="17" selection-start-line="370" selection-start-column="17" selection-end-line="370" selection-end-column="17" />
+          <caret line="370" column="34" selection-start-line="370" selection-start-column="34" selection-end-line="370" selection-end-column="34" />
           <folding />
         </state>
       </provider>
