@@ -1,7 +1,7 @@
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.generic import TemplateView
-import views
+import views,classviews
 
 urlpatterns = [
     url(r'^api/restaurantlist/$', views.restaurant_list),
@@ -18,4 +18,9 @@ urlpatterns = [
     url(r'^restaurants/$', views.manage_restaurants),
     url(r'^allrestaurants/$', views.order_restaurants),
     url(r'^confirmorder/$', views.confirm_order),
+    url(r'^restaurant/create', view=classviews.restaurantcreateview.as_view(), name="addrestaurant"),
+    url(r'^restaurant/(?P<pk>[0-9]+)/update', view=classviews.restaurantupdateview.as_view(), name="updaterestaurant"),
+    url(r'^restaurant/(?P<pk>[0-9]+)/delete', view=classviews.restaurantdeleteview.as_view(), name="deleterestaurant"),
+    url(r'^ownersrestaurant/$', views.restaurant_owners),
+
 ]
