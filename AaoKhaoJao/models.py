@@ -8,6 +8,8 @@ class Restaurants(models.Model):
     name = models.CharField(max_length=50)
     location=models.CharField(max_length=50)
     owner=models.ForeignKey(User)
+    def __str__(self):
+        return self.name
 
 class Menu(models.Model):
     restaurant_id = models.ForeignKey(Restaurants)
