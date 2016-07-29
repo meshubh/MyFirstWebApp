@@ -8,6 +8,7 @@ from rest_framework.response import Response
 from AaoKhaoJao.serializers import *
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render_to_response,redirect
+from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponseRedirect
 from django.template import RequestContext
 from django.contrib.auth import authenticate,login,logout
@@ -54,6 +55,7 @@ def user_login(request):
         # blank dictionary object...
         return render_to_response('login.html', {}, context)
 
+@csrf_exempt
 @api_view(['GET', 'POST'])
 def restaurant_list_owner(request):
             """
@@ -77,6 +79,7 @@ def restaurant_list_owner(request):
 
 
 # Create your views here.
+@csrf_exempt
 @api_view(['GET', 'POST'])
 def restaurant_list(request):
     """
@@ -94,7 +97,7 @@ def restaurant_list(request):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-
+@csrf_exempt
 @api_view(['GET', 'PUT', 'DELETE'])
 def restaurant_detail(request, pk):
     """
@@ -120,6 +123,7 @@ def restaurant_detail(request, pk):
         list1.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+@csrf_exempt
 @api_view(['GET', 'POST'])
 def menu_list(request, lid):
     """
@@ -137,7 +141,7 @@ def menu_list(request, lid):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-
+@csrf_exempt
 @api_view(['GET', 'PUT', 'DELETE'])
 def menu_detail(request, pk):
     """
@@ -163,6 +167,7 @@ def menu_detail(request, pk):
         item1.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+@csrf_exempt
 @api_view(['GET', 'POST'])
 def menu_all_item(request):
     """
