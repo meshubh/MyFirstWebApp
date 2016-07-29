@@ -12,6 +12,8 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponseRedirect
 from django.template import RequestContext
 from django.contrib.auth import authenticate,login,logout
+from rest_framework.authentication import SessionAuthentication
+
 
 def user_login(request):
     # Like before, obtain the context for the user's request.
