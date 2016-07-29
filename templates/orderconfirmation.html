@@ -4,11 +4,31 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Confirm Order</title>
+    <style>
+        .centered {
+  position: fixed; /* or absolute */
+  top: 40%;
+  left: 40%;
+}
+        .corner {
+  position: fixed; /* or absolute */
+  top: 0%;
+  left: 90%;
+}
+        body {
+
+    background-image:url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/01/Restaurant-Desktop-Wallpapers-HD.jpg);
+ }
+    </style>
 </head>
 <body>
     Order Confirmed.<br>
     Thanks for placing order with Aao Khao Jao!<br>
     Please click below to place next order.<br>
-    <a href="http://localhost:63342/app/templates/customeraaokhaojao.html">Next Order</a><br />
+    <a href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/allrestaurants">Next Order</a><br />
+
+<div class="corner">
+        <a href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/logout/">Logout</a>
+    </div>
 </body>
 </html>
