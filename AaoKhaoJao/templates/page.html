@@ -27,7 +27,12 @@
     <li>{{ author }}</li>
 {% endfor %}
 </ul>
-  <table class="table table-hover table-bordered">
+  {% if list %}
+{{ list }}
+      {%  else %}
+      Hello
+{% endif %}
+ <table class="table table-hover table-bordered">
 
           <tbody>
           {% for o in list %}
