@@ -21,6 +21,7 @@ urlpatterns = [
     url(r'^restaurant/create', view=classviews.restaurantcreateview.as_view(), name="addrestaurant"),
     url(r'^restaurant/(?P<pk>[0-9]+)/update', view=classviews.restaurantupdateview.as_view(), name="updaterestaurant"),
     url(r'^restaurant/(?P<pk>[0-9]+)/delete', view=classviews.restaurantdeleteview.as_view(), name="deleterestaurant"),
-    url(r'^ownersrestaurant/$', views.restaurant_owners, name="list"),
+    url(r'^ownersrestaurant/$', views.restaurant_owners),
+    url(r'^restaurantsowned/$', view=classviews.list, name="list"),
 
 ]
