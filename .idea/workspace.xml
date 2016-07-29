@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393dd920-8e06-4220-8daa-bccde9e80780" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/urls.py" afterPath="$PROJECT_DIR$/AaoKhaoJao/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Secondpage.html" afterPath="$PROJECT_DIR$/templates/Secondpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/templates/page.html" afterPath="$PROJECT_DIR$/AaoKhaoJao/templates/page.html" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Secondpage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Secondpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Secondpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="31" column="135" selection-start-line="31" selection-start-column="135" selection-end-line="31" selection-end-column="135" />
+            <state relative-caret-position="203">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -148,9 +147,9 @@
         <option value="$PROJECT_DIR$/AaoKhaoJao/classviews.py" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/models.py" />
         <option value="$PROJECT_DIR$/templates/orderconfirmation.html" />
-        <option value="$PROJECT_DIR$/AaoKhaoJao/templates/page.html" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/urls.py" />
         <option value="$PROJECT_DIR$/templates/Secondpage.html" />
+        <option value="$PROJECT_DIR$/AaoKhaoJao/templates/page.html" />
       </list>
     </option>
   </component>
@@ -1008,14 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AaoKhaoJao/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1043,8 +1034,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Secondpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="31" column="135" selection-start-line="31" selection-start-column="135" selection-end-line="31" selection-end-column="135" />
+        <state relative-caret-position="203">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
