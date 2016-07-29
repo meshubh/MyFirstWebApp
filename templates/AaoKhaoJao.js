@@ -298,7 +298,7 @@ var AppItemView = Backbone.View.extend({
             //Get new content through Ajax
         location.reload();
         }
-        setInterval(updateDiv, 100);
+        setInterval(updateDiv, 1);
         //location.reload(true);
     }
 });
