@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393dd920-8e06-4220-8daa-bccde9e80780" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AaoKhaoJao.html" afterPath="$PROJECT_DIR$/templates/AaoKhaoJao.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Secondpage.html" afterPath="$PROJECT_DIR$/templates/Secondpage.html" />
     </list>
     <ignored path="app.iws" />
@@ -127,8 +126,8 @@
       <file leaf-file-name="Secondpage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/Secondpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="200">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -1011,8 +1010,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Secondpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="200">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding />
         </state>
       </provider>
