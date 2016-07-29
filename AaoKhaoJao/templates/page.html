@@ -25,10 +25,15 @@
     <ul>
 
  <table class="table table-hover table-bordered">
-
+            <tr>
+        <th>Restaurant</th>
+        <th>Edit</th>
+        <th>Delete</th>
+            </tr>
           <tbody>
           {% for o in list %}
             <tr>
+            <td>{{ o.name }}</td>
               <td><div class="text-center"><button class="btn btn-primary" id="edit" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/(?P<pk>[0-9]+)/update'">Edit</button></div></td>
               <td><div class="text-center"><button class="glyphicon glyphicon-remove btn-danger" id="delete" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/(?P<pk>[0-9]+)/delete'"></button></div></td>
             </tr>
