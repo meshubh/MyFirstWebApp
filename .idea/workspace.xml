@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393dd920-8e06-4220-8daa-bccde9e80780" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao.html" afterPath="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AaoKhaoJao.html" afterPath="$PROJECT_DIR$/templates/AaoKhaoJao.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Firstpage.html" afterPath="$PROJECT_DIR$/templates/Firstpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/customeraaokhaojao.html" afterPath="$PROJECT_DIR$/templates/customeraaokhaojao.html" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,23 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/settings.py">
+      <file leaf-file-name="customeraaokhaojao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="126" column="1" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
-              <folding>
-                <element signature="e#304#313#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="225" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customeraaokhaojao.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AaoKhaoJao/static/js/customeraaokhaojao.js">
+      <file leaf-file-name="customeraaokhaojao.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="387">
+              <caret line="303" column="25" selection-start-line="303" selection-start-column="25" selection-end-line="303" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -83,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Firstpage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Firstpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Firstpage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -184,11 +180,11 @@
         <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/app/wsgi.py" />
         <option value="$PROJECT_DIR$/templates/Secondpage.html" />
-        <option value="$PROJECT_DIR$/templates/customeraaokhaojao.html" />
         <option value="$PROJECT_DIR$/app/settings.py" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao.html" />
         <option value="$PROJECT_DIR$/templates/AaoKhaoJao.html" />
         <option value="$PROJECT_DIR$/templates/Firstpage.html" />
+        <option value="$PROJECT_DIR$/templates/customeraaokhaojao.html" />
       </list>
     </option>
   </component>
@@ -937,22 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/customeraaokhaojao.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1051,6 +1031,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="225" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="303" column="25" selection-start-line="303" selection-start-column="25" selection-end-line="303" selection-end-column="25" />
           <folding />
         </state>
       </provider>
