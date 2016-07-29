@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aao Khao Jao</title>
+    </head>
+
+    <body>
+        <h1>Register with Aao Khao Jao</h1>
+
+        {% if registered %}
+        Aao Khao Jao says: <strong>Thank you for registering!</strong><br>
+        Please click here to go to the login page.
+        <a href="/AaoKhaoJao/login/">Login</a><br />
+        {% else %}
+        Aao Khao Jao says: <strong>register here!</strong><br />
+
+        <form id="user_form" method="post"
+                enctype="multipart/form-data">
+
+            {% csrf_token %}
+
+            <!-- Display each form. The as_p method wraps each element in a paragraph
+                 (<p>) element. This ensures each element appears on a new line,
+                 making everything look neater. -->
+            {{ user_form.as_p }}
+            {{ profile_form.as_p }}
+
+            <!-- Provide a button to click to submit the form. -->
+            <input type="submit" name="submit" value="Register" />
+        </form>
+        {% endif %}
+    </body>
+</html>
