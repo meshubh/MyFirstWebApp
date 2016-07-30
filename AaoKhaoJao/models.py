@@ -17,7 +17,7 @@ class Menu(models.Model):
     price = models.IntegerField()
 
     def __str__(self):
-        return self.name
+        return self.item
 
 class UserProfile(models.Model):
         # This line is required. Links UserProfile to a User model instance.
