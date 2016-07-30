@@ -23,10 +23,10 @@
 
     <button class="btn btn-primary" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/create'">Add a Restaurant</button>
 
-  <a id="page-help" href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/testing/" onclick="window.open(this.href, 'popupwindow', 'width=500,height=300'); return false;">what is this?</a>
+
  <script type="text/javascript">
      $(document).ready(function() {
-	$('#spec td button').each(function() {
+	$('#page-help').each(function() {
 		var $link = $(this);
 		var $dialog = $('<div></div>')
 			.load($link.attr('href'))
@@ -45,6 +45,7 @@
 	});
 });
  </script>
+   <a id="page-help" href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/testing/" onclick="window.open(this.href, 'popupwindow', 'width=500,height=300'); return false;">what is this?</a>
   <table class="table table-hover table-bordered" id = "spec">
      <tr>
         <th>Restaurant</th>
