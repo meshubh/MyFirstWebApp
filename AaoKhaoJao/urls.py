@@ -26,5 +26,6 @@ urlpatterns = [
     url(r'^menu/create/(?P<pk>[0-9]+)/$', view=classviews.menucreateview.as_view(), name="addmenu"),
     url(r'^menu/(?P<id>[0-9]+)/menu/(?P<pk>[0-9]+)/update/$', view=classviews.menuupdateview.as_view(), name="updatemenuitem"),
     url(r'^menu/(?P<id>[0-9]+)/menu/(?P<pk>[0-9]+)/delete/$', view=classviews.menudeleteview.as_view(), name="deletemenu"),
-    url(r'^editmenu/(?P<pk>[0-9]+)/$', view=classviews.menus, name="posts")
+    url(r'^editmenu/(?P<pk>[0-9]+)/$', view=classviews.menus, name="posts"),
+    url(r'^testing/$',views.restaurant_menu)
 ]

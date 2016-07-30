@@ -279,3 +279,7 @@ def confirm_order(request):
 def restaurant_owners(request):
     template = get_template("page.html")
     return HttpResponse(template.render())
+
+def restaurant_menu(request):
+    template = get_template("menu.html")
+    return HttpResponse(template.render())
