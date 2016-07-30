@@ -16,6 +16,9 @@ class Menu(models.Model):
     item = models.CharField(max_length=100)
     price = models.IntegerField()
 
+    def __str__(self):
+        return self.name
+
 class UserProfile(models.Model):
         # This line is required. Links UserProfile to a User model instance.
         user = models.OneToOneField(User)
