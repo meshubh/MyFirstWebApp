@@ -57,10 +57,10 @@
 </div><br>
 
 
-<div id="itemdiv">
 
+<script id="menuTemplate" type="text/template">
   <table class="table table-hover table-bordered">
-      <script id="menuTemplate" type="text/template">
+    <div id="itemdiv">
           <tbody>
             <tr>
             <td><div class="text-center" id="view"><strong><p><%= item %></p></strong></div></td>
@@ -76,19 +76,19 @@
     </div></td>
             </tr>
           </tbody>
-
+</div>
+</table>
 <div class="container">
   <button class="btn btn-primary" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/confirmorder';">Place Order</button>
 </div>
 </script>
-</table>
+
     <div class="corner">
         <a href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/logout/">Logout</a>
     </div>
 
 
 
-</div>
 
 
 <script>
