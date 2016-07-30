@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393dd920-8e06-4220-8daa-bccde9e80780" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/templates/page.html" afterPath="$PROJECT_DIR$/AaoKhaoJao/templates/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/urls.py" afterPath="$PROJECT_DIR$/AaoKhaoJao/urls.py" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +45,8 @@
       <file leaf-file-name="page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="241">
+              <caret line="36" column="175" selection-start-line="36" selection-start-column="175" selection-end-line="36" selection-end-column="175" />
               <folding />
             </state>
           </provider>
@@ -1047,8 +1045,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="241">
+          <caret line="36" column="175" selection-start-line="36" selection-start-column="175" selection-end-line="36" selection-end-column="175" />
           <folding />
         </state>
       </provider>

@@ -34,7 +34,7 @@
           {% for rest in list %}
             <tr>
             <td>{{ rest.name }}</td>
-              <td><div class="text-center"><button class="btn btn-primary" id="edit" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/editmenu/(?P<pk>[0-9]+)/'">Manage Menu</button></div></td>
+              <td><div class="text-center"><button class="btn btn-primary" id="edit" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/editmenu/{{ rest.id }}/'">Manage Menu</button></div></td>
               <td><div class="text-center"><button class="btn btn-primary" id="edit" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/{{ rest.id }}/update'">Edit</button></div></td>
               <td><div class="text-center"><button class="glyphicon glyphicon-remove btn-danger" id="delete" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/{{ rest.id }}/delete'"></button></div></td>
             </tr>
