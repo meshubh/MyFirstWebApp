@@ -24,27 +24,27 @@
     <button class="btn btn-primary" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/create'">Add a Restaurant</button>
 
 
- <script type="text/javascript">
-     $(document).ready(function() {
-	$('#page-help').each(function() {
-		var $link = $(this);
-		var $dialog = $('<div></div>')
-			.load($link.attr('href'))
-			.dialog({
-				autoOpen: false,
-				title: $link.attr('title'),
-				width: 500,
-				height: 300
+ 	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#page-help').each(function() {
+			var $link = $(this);
+			var $dialog = $('<div></div>')
+				.load($link.attr('href') + ' #content')
+				.dialog({
+					autoOpen: false,
+					title: $link.attr('title'),
+					width: 600
+				});
+
+			$link.click(function() {
+				$dialog.dialog('open');
+
+				return false;
 			});
-
-		$link.click(function() {
-			$dialog.dialog('open');
-
-			return false;
 		});
 	});
-});
- </script>
+	</script>
+
    <a id="page-help" href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/testing/" onclick="window.open(this.href, 'popupwindow', 'width=500,height=300'); return false;">what is this?</a>
   <table class="table table-hover table-bordered" id = "spec">
      <tr>
