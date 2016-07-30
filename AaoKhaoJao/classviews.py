@@ -52,7 +52,7 @@ class menucreateview(CreateView):
     fields = {'item','price'}
 
     def form_valid(self, form):
-        form.instance.courseid = Menu.objects.get(id=self.kwargs.get('pk'))
+        form.instance.restaurant_id = Menu.objects.get(id=self.kwargs.get('pk'))
         return super(menucreateview, self).form_valid(form)
 
     def get_success_url(self):
