@@ -68,14 +68,14 @@
 <a href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/logout/">Logout</a>
 </div>
 <script>
-    var Restaurants = Backbone.Model.extend({
+  /*  var Restaurants = Backbone.Model.extend({
     defaults: {
         name: 'Empty',
         location: 'Kachiguda',
         id: null,
         owner: null
     }
-});
+});*/
 
 var Menu = Backbone.Model.extend({
     defaults: {
@@ -86,10 +86,10 @@ var Menu = Backbone.Model.extend({
 });
 
 
-var RestaurantCollection = Backbone.Collection.extend({
+/*var RestaurantCollection = Backbone.Collection.extend({
     model: Restaurants,
     url: 'https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/api/restaurantlist/'
-});
+});*/
 
 var MenuCollection = Backbone.Collection.extend({
     model: Menu,
@@ -97,7 +97,7 @@ var MenuCollection = Backbone.Collection.extend({
 
 });
 
-var RestaurantcollView = Backbone.View.extend({
+/*var RestaurantcollView = Backbone.View.extend({
     tagName: 'ol',
 
     initialize: function() {
@@ -126,13 +126,12 @@ var RestaurantcollView = Backbone.View.extend({
 		var courseView = new RestaurantView({ model: restaurants });
 		this.$el.append(courseView.render().el);
 	}
-});
+});*/
 
-var RestaurantsColl = new RestaurantCollection;
+/*var RestaurantsColl = new RestaurantCollection;*/
 var Menus = new MenuCollection;
 
-var InFetchView = Backbone.View.extend
-({
+var InFetchView = Backbone.View.extend({
     el: ('#itemdiv'),
     initialize: function() {
         var url = Backbone.history.getFragment();
@@ -183,7 +182,7 @@ var MenucollView = Backbone.View.extend({
     }
 });
 
-var RestaurantView = Backbone.View.extend({
+/*var RestaurantView = Backbone.View.extend({
     tagName: 'ol',
 
 
@@ -247,7 +246,7 @@ var RestaurantView = Backbone.View.extend({
         //this.model.destroy();
         this.$el.remove();
     },
-})
+})*/
 
 var MenuView = Backbone.View.extend({
     tagName: 'ol',
@@ -373,7 +372,7 @@ var AppItemView = Backbone.View.extend({
     }
 });
 
-var Router = Backbone.Router.extend({
+/*var Router = Backbone.Router.extend({
     // el:('#maindiv'),
     routes: {
         '': 'index',
@@ -463,11 +462,13 @@ var AppView = Backbone.View.extend({
         //console.log("in render");
         this.$el.append(listView.render().el);
      },
-});
+});*/
 
 
-var App = new AppView;
-App.render();
+ var AIV = new AppItemView({
+            collection: Menus
+        })
+AIV.render();
 var router = new Router();
 Backbone.history.start();
 </script>
