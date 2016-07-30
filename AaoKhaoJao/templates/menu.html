@@ -23,6 +23,12 @@
 
     <button class="btn btn-primary" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/menu/create/{{ id }}'">Add an Item</button>
  <table class="table table-hover table-bordered">
+ <tr>
+     <th>MENU Item</th>
+        <th>Price</th>
+        <th>Edit</th>
+        <th>Delete</th>
+ </tr>
           <tbody>
           {% for rest in list %}
             <tr>
