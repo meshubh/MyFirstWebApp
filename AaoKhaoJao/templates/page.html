@@ -13,6 +13,22 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <title>Manage Restaurants</title>
+
+   <style>
+       #content{
+           position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+       }
+       .corner {
+  position: fixed; /* or absolute */
+  top: 0%;
+  left: 90%;
+}
+       body {
+    background-image:url(//hdwallpaperbackgrounds.net/wp-content/uploads/2016/01/Restaurant-Desktop-Wallpapers-HD.jpg);
+ }
+   </style>
 </head>
 <body>
 
@@ -45,7 +61,10 @@ document.getElementById("content").innerHTML='<object type="text/html" data="htt
             </tr>
           {% endfor %}
           </tbody>
-<div id ="content"> </div>
 </table>
+<div id ="content"> </div>
+  <div class="corner">
+        <a href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/logout/">Logout</a>
+    </div>
 </body>
 </html>
