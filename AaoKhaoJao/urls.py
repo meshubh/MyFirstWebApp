@@ -23,6 +23,8 @@ urlpatterns = [
     url(r'^restaurant/(?P<pk>[0-9]+)/delete', view=classviews.restaurantdeleteview.as_view(), name="deleterestaurant"),
     url(r'^ownersrestaurant/$', views.restaurant_owners),
     url(r'^restaurantsowned/$', view=classviews.list, name="list"),
-
-
+    url(r'^menu/(?P<pk>[0-9]+)/$', view=classviews.menucreateview.as_view(), name="addmenu"),
+    url(r'^menu/(?P<id>[0-9]+)/menu/(?P<pk>[0-9]+)/update/$', view=classviews.menuupdateview.as_view(), name="updatemenuitem"),
+    url(r'^menu/(?P<id>[0-9]+)/menu/(?P<pk>[0-9]+)/delete/$', view=classviews.menudeleteview.as_view(), name="deletemenu"),
+    url(r'^editmenu/$', view=classviews.menus, name="posts")
 ]

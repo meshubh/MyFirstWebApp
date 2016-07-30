@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Deleting a Restaurant</title>
+    <title>Create</title>
 </head>
 <body>
 <form action="" method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <p>Are you sure you want to delete {{ object }} this Restaurant?</p>
-<input type="submit" value="Delete" >
+<input type="submit" value="Save" />
 </form>
-
 </body>
 </html>
