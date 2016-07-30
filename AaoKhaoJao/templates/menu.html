@@ -59,9 +59,10 @@
           </tbody>
 </table>
 {% else %}
-  No Food Items Please add Item
+  No Food Items. Please add an Item.<br>
+  <button class="btn btn-primary" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/menu/create/{{ id }}'">Add a New Item</button>
   {% endif %}
-    <button class="btn btn-primary" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/menu/create/{{ id }}'">Add a New Item</button>
+
   <div class="corner">
         <a href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/logout/">Logout</a>
     </div>
