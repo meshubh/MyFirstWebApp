@@ -30,6 +30,11 @@
   top: 0%;
   left: 90%;
 }
+       #xyz{
+             position: fixed; /* or absolute */
+             top: 10%;
+             left: 0%;
+         }
        body {
     background-image:url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/01/Restaurant-Desktop-Wallpapers-HD.jpg);
  }
@@ -44,7 +49,7 @@
 {% if list %}
 
   <button class="btn btn-primary" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/create'">Add a New Restaurant</button>
-  <table class="table table-hover table-bordered" id = "spec">
+  <table class="table table-hover table-bordered" id = "xyz">
      <tr>
         <th>Restaurant</th>
         <th>Edit Menu</th>

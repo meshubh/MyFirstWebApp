@@ -33,6 +33,11 @@
              top: 0%;
              left: 80%;
          }
+         #xyz{
+             position: fixed; /* or absolute */
+             top: 10%;
+             left: 0%;
+         }
    </style>
 </head>
 <body>
@@ -46,7 +51,7 @@
 
 
     <button class="btn btn-primary" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/menu/create/{{ id }}'">Add a New Item</button>
- <table class="table table-hover table-bordered">
+ <table class="table table-hover table-bordered" id="xyz">
  <tr>
      <th>MENU Item</th>
         <th>Price</th>
