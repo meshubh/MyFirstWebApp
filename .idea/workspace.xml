@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="393dd920-8e06-4220-8daa-bccde9e80780" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_form.html" afterPath="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/templates/page.html" afterPath="$PROJECT_DIR$/AaoKhaoJao/templates/page.html" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,8 +53,8 @@
       <file leaf-file-name="restaurants_form.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -1076,8 +1075,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding />
         </state>
       </provider>
