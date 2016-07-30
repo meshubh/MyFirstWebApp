@@ -15,7 +15,7 @@ urlpatterns = [
     url(r'^login/$', views.user_login),
     url(r'^logout/$', views.user_logout, name='logout'),
     url(r'^secondpage/$', views.second_home),
-    url(r'^editmenu/(?P<pk>[0-9]+)$', views.manage_restaurants),
+    url(r'^editmenu/(?P<id>[0-9]+)$', views.manage_restaurants),
     url(r'^allrestaurants/$', views.order_restaurants),
     url(r'^confirmorder/$', views.confirm_order),
     url(r'^restaurant/create', view=classviews.restaurantcreateview.as_view(), name="addrestaurant"),
