@@ -24,9 +24,10 @@
     <button class="btn btn-primary" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/create'">Add a Restaurant</button>
     <script>
       function load_home(){
-document.getElementById("content").innerHTML='<object type="text/html" data="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/{{ rest.id }}/delete" ></object>';
+document.getElementById("content").innerHTML='<object type="text/html" data="https://aaokhaojaoapp.herokuapp.com/" ></object>';
 }
 </script>
+  <div id="topBar"> <a href ="#" onclick="load_home()"> HOME </a> </div>
   <table class="table table-hover table-bordered" id = "spec">
      <tr>
         <th>Restaurant</th>
@@ -40,7 +41,7 @@ document.getElementById("content").innerHTML='<object type="text/html" data="htt
             <td>{{ rest.name }}</td>
               <td><div class="text-center"><button class="btn btn-primary" id="editmenu" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/editmenu/{{ rest.id }}/'">Manage Menu</button></div></td>
               <td><div class="text-center"><button class="btn btn-primary" id="editrrestauran" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/{{ rest.id }}/update'">Edit</button></div></td>
-              <td><div class="text-center"><button class="glyphicon glyphicon-remove btn-danger" id="delete" href ="/#" onclick="load_home()" ></button></div></td>
+              <td><div class="text-center"><button class="glyphicon glyphicon-remove btn-danger" id="delete"  onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/{{ rest.id }}/delete'"></button></div></td>
             </tr>
           {% endfor %}
           </tbody>
