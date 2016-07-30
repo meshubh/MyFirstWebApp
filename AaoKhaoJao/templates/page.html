@@ -23,6 +23,18 @@
 
     <button class="btn btn-primary" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/create'">Add a Restaurant</button>
    <a href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/testing/" rel="modal:open">example</a>
+  <a href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/testing/"  id="manual-ajax">second example</a>
+  <script type="text/javascript">
+  $('#manual-ajax').click(function(event) {
+  event.preventDefault();
+  $.get(this.href, function(html) {
+    $(html).appendTo('body').modal();
+  });
+});
+  </script>
+  <div class="modal">
+  <p>Second AJAX Example!</p>
+</div>
  <table class="table table-hover table-bordered">
      <tr>
         <th>Restaurant</th>
