@@ -335,11 +335,10 @@ var AppItemView = Backbone.View.extend({
         var itemView = new MenucollView({
             collection: Menus
         });
-        //var newItemId = ToDoItems.length + 1;
-        //console.log(newItemId);
         var url = Backbone.history.getFragment();
         var index = url.indexOf("/");
         var newid = url.slice(index + 1);
+        console.log(newid);
         var item = new Menu
         ({
             'item': newItemDesc,

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393dd920-8e06-4220-8daa-bccde9e80780" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_confirm_delete.html" afterPath="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_confirm_delete.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AaoKhaoJao.html" afterPath="$PROJECT_DIR$/templates/AaoKhaoJao.html" />
     </list>
     <ignored path="app.iws" />
@@ -30,18 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="classviews.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AaoKhaoJao/classviews.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/page.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,15 +44,25 @@
       <file leaf-file-name="AaoKhaoJao.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/AaoKhaoJao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="471" column="0" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
+            <state relative-caret-position="181">
+              <caret line="343" column="32" selection-start-line="343" selection-start-column="32" selection-end-line="343" selection-end-column="32" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#4508#5000#0#HTML" expanded="false" />
                 <element signature="e#5043#5763#0#HTML" expanded="false" />
-                <element signature="e#9141#11445#0#HTML" expanded="false" />
+                <element signature="e#11395#14568#0#HTML" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurants_confirm_delete.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_confirm_delete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,7 +193,6 @@
         <option value="$PROJECT_DIR$/app/settings.py" />
         <option value="$PROJECT_DIR$/templates/AaoKhaoJao.js" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants.html" />
-        <option value="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_confirm_delete.html" />
         <option value="$PROJECT_DIR$/templates/page.html" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/classviews.py" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/models.py" />
@@ -205,6 +203,7 @@
         <option value="$PROJECT_DIR$/AaoKhaoJao/urls.py" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/views.py" />
         <option value="$PROJECT_DIR$/templates/AaoKhaoJao.html" />
+        <option value="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_confirm_delete.html" />
       </list>
     </option>
   </component>
@@ -901,13 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_confirm_delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/page.html" />
     <entry file="file://$PROJECT_DIR$/AaoKhaoJao/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1013,16 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AaoKhaoJao/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AaoKhaoJao/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1038,16 +1020,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_confirm_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AaoKhaoJao/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/AaoKhaoJao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="471" column="0" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
+        <state relative-caret-position="181">
+          <caret line="343" column="32" selection-start-line="343" selection-start-column="32" selection-end-line="343" selection-end-column="32" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#4508#5000#0#HTML" expanded="false" />
             <element signature="e#5043#5763#0#HTML" expanded="false" />
-            <element signature="e#9141#11445#0#HTML" expanded="false" />
+            <element signature="e#11395#14568#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
