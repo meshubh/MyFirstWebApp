@@ -26,6 +26,8 @@
           <tbody>
           {% for rest in list %}
             <tr>
+             <td>{{ rest.item }}</td>
+             <td>{{ rest.price }}</td>
             <td><button class="btn btn-primary" id="edit" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/menu/{{ id }}/menu/{{ rest.id }}/update/'">Edit</button></td>
             <td><button class="glyphicon glyphicon-remove btn-danger" id="delete" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/menu/{{ id }}/menu/{{ rest.id }}/delete/'"></button></td>
             </tr>
