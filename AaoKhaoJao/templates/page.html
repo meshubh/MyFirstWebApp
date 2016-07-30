@@ -40,7 +40,7 @@ document.getElementById("content").innerHTML='<object type="text/html" data="htt
             <td>{{ rest.name }}</td>
               <td><div class="text-center"><button class="btn btn-primary" id="editmenu" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/editmenu/{{ rest.id }}/'">Manage Menu</button></div></td>
               <td><div class="text-center"><button class="btn btn-primary" id="editrrestauran" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/restaurant/{{ rest.id }}/update'">Edit</button></div></td>
-              <td><div class="text-center"><button class="glyphicon glyphicon-remove btn-danger" id="delete" onclick="load_home()" ></button></div></td>
+              <td><div class="text-center"><button class="glyphicon glyphicon-remove btn-danger" id="delete" href ="#" onclick="load_home()" ></button></div></td>
             </tr>
           {% endfor %}
           </tbody>
