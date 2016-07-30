@@ -15,11 +15,15 @@
     <title>Manage Restaurants</title>
 
    <style>
-       #content{
-           position: fixed; /* or absolute */
-  top: 50%;
-  left: 10%;
-       }
+              #add{
+             top: 0%;
+            left: 40%;
+         }
+
+         .home{
+             top: 0%;
+             left: 0%
+         }
        .corner {
   position: fixed; /* or absolute */
   top: 0%;
@@ -63,6 +67,9 @@
   {% endif %}
   <div class="corner">
         <a href="https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/logout/">Logout</a>
+    </div>
+    <div class="home">
+        <button class="btn btn-warning" id="add" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/secondpage/'">Home</button>
     </div>
 </body>
 </html>
