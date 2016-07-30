@@ -5,15 +5,17 @@
     <title>Create</title>
 </head>
 <body>
-<form action="" method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-<input type="submit" value="Save"  onclick="load_home()" />
-</form>
 <script type="text/javascript">
     function load_home() {
         location.href = window.location;
     }
 </script>
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+<input type="submit" value="Save"  onclick="load_home()" />
+</form>
+
 </body>
 </html>
