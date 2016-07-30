@@ -264,7 +264,7 @@ def second_home(request):
     template = get_template("Secondpage.html")
     return HttpResponse(template.render())
 
-def manage_restaurants(request):
+def manage_restaurants(request,id):
     template = get_template("AaoKhaoJao.html")
     return HttpResponse(template.render())
 
