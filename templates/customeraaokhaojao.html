@@ -88,10 +88,10 @@
 
 <div id="itemdiv">
     <script id="menuTemplate" type="text/template">
-
-            <div class="text-center" id="items"><strong><%= item %></strong></div>
-            <div class="text-center" id="price"><strong><%= price %></strong></div>
-                <div class="add-to-cart">
+            <tr>
+            <td><div class="text-center" id="items"><strong><%= item %></strong></div></td>
+            <td><div class="text-center" id="price"><strong><%= price %></strong></div></td>
+                <td><div class="add-to-cart">
         <div class="quantity-adder pull-left">
 			<div class="quantity-number pull-left" id="qunatity">
 				<label for="qty">Qty:</label>
@@ -99,7 +99,8 @@
 			</div>
             <input type="hidden" value="" size="2" name="product_id">
 		</div>
-    </div>
+    </div></td>
+            </tr>
 <div class="goback">
   <button class="btn btn-warning" onclick="location.href='https://aaokhaojaoapp.herokuapp.com/AaoKhaoJao/allrestaurants/';">Choose a different Restaurant</button>
 </div>
