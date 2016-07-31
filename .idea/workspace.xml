@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393dd920-8e06-4220-8daa-bccde9e80780" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/customeraaokhaojao.html" afterPath="$PROJECT_DIR$/templates/customeraaokhaojao.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/orderconfirmation.html" afterPath="$PROJECT_DIR$/templates/orderconfirmation.html" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,16 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="restaurants_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_form.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,7 +73,7 @@
       <file leaf-file-name="Firstpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Firstpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="315">
               <caret line="23" column="147" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="147" />
               <folding />
             </state>
@@ -110,11 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customeraaokhaojao.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="customeraaokhaojao.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+            <state relative-caret-position="-926">
+              <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderconfirmation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/orderconfirmation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -174,7 +174,6 @@
         <option value="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/restaurants_confirm_delete.html" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/menu_confirm_delete.html" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/models.py" />
-        <option value="$PROJECT_DIR$/templates/orderconfirmation.html" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/templates/menu.html" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/templates/page.html" />
         <option value="$PROJECT_DIR$/AaoKhaoJao/templates/AaoKhaoJao/menu_form.html" />
@@ -184,6 +183,7 @@
         <option value="$PROJECT_DIR$/templates/Firstpage.html" />
         <option value="$PROJECT_DIR$/templates/Secondpage.html" />
         <option value="$PROJECT_DIR$/templates/customeraaokhaojao.html" />
+        <option value="$PROJECT_DIR$/templates/orderconfirmation.html" />
       </list>
     </option>
   </component>
@@ -925,13 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/orderconfirmation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AaoKhaoJao/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -995,14 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Firstpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="147" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="147" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Secondpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1013,8 +998,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/customeraaokhaojao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="-926">
+          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Firstpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="147" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/orderconfirmation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
