@@ -6,6 +6,11 @@
             <style>
         @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+               .lead {
+  position: fixed; /* or absolute */
+  top: 40%;
+  left: 40%;
+}
 .login-page {
   width: 360px;
   padding: 8% 0 0;
@@ -111,9 +116,9 @@ body {
         <h1>Register with Aao Khao Jao</h1>
 
         {% if registered %}
-        Aao Khao Jao says: <strong>Thank you for registering!</strong><br>
+         <p class="lead" style="color:white;">Aao Khao Jao says: <strong>Thank you for registering!</strong><br>
         Please click here to go to the login page.
-        <a href="/AaoKhaoJao/login/">Login</a><br />
+        <a href="/AaoKhaoJao/login/">Login</a><br /></p>
         {% else %}
         <div class="login-page">
             <div class="form">
